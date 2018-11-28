@@ -10,8 +10,8 @@
   "license": "GPL-3.0+",
   "main": "Gruntfile.js",
   "scripts": {
-    "lint-css": "stylelint '**/*.scss'",
-    "lint-css:fix": "stylelint '**/*.scss' --fix"
+    "lint-css": "stylelint assets/css",
+    "lint-css:fix": "stylelint assets/css --fix"
   },
   "devDependencies": {
     "stylelint": "~9.9.0",
