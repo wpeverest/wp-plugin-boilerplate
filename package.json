@@ -1,0 +1,24 @@
+{
+  "name": "wp-plugin-boilerplate",
+  "title": "WP Plugin Boilerplate",
+  "version": "0.1.0",
+  "homepage": "https://wpeverest.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpeverest/wp-plugin-boilerplate.git"
+  },
+  "license": "GPL-3.0+",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "lint-css": "stylelint '**/*.scss'",
+    "lint-css:fix": "stylelint '**/*.scss' --fix"
+  },
+  "devDependencies": {
+    "stylelint": "~9.9.0",
+    "stylelint-config-wordpress": "~13.1.0"
+  },
+  "engines": {
+    "node": ">=8.9.3",
+    "npm": ">=5.5.1"
+  }
+}
