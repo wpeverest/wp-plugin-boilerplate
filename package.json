@@ -3,6 +3,7 @@
   "title": "WP Plugin Boilerplate",
   "version": "0.1.0",
   "homepage": "https://wpeverest.com",
+  "description": "Bootstrap for creating a WordPress plugin using Webpack and Git.",
   "repository": {
     "type": "git",
     "url": "https://github.com/wpeverest/wp-plugin-boilerplate.git"
@@ -17,8 +18,16 @@
   },
   "devDependencies": {
     "@babel/core": "~7.1.6",
+    "autoprefixer": "~9.3.1",
     "babel-loader": "~8.0.4",
+    "clean-webpack-plugin": "~1.0.0",
     "cross-env": "~5.2.0",
+    "css-loader": "~1.0.1",
+    "mini-css-extract-plugin": "~0.4.5",
+    "node-sass": "~4.10.0",
+    "postcss-loader": "~3.0.0",
+    "sass-loader": "~7.1.0",
+    "style-loader": "~0.23.1",
     "stylelint": "~9.9.0",
     "stylelint-config-wordpress": "~13.1.0",
     "webpack": "~4.26.1",
